@@ -1,0 +1,179 @@
+{
+  "cosine": {
+    "n": 500,
+    "ctx_recall_before": 0.864,
+    "ctx_recall_after": 0.864,
+    "delta_ctx_recall": 0.0,
+    "ev_recall_before": 0.946,
+    "ev_recall_after": 0.946,
+    "delta_ev_recall": 0.0,
+    "best_rouge1_before": 0.07519114550870493,
+    "best_rouge1_after": 0.07519114550870493,
+    "delta_rouge1": 0.0,
+    "f1": 0.0,
+    "by_ability": {
+      "information_extraction": {
+        "n": 156,
+        "ctx_recall_before": 0.9807692307692307,
+        "ctx_recall_after": 0.9807692307692307,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9423076923076923,
+        "ev_recall_after": 0.9423076923076923,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.1463747887042544,
+        "best_rouge1_after": 0.1463747887042544
+      },
+      "knowledge_update": {
+        "n": 78,
+        "ctx_recall_before": 0.8333333333333334,
+        "ctx_recall_after": 0.8333333333333334,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9743589743589743,
+        "ev_recall_after": 0.9743589743589743,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.06188756809851342,
+        "best_rouge1_after": 0.06188756809851342
+      },
+      "multi_session_reasoning": {
+        "n": 133,
+        "ctx_recall_before": 0.6766917293233082,
+        "ctx_recall_after": 0.6766917293233082,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9548872180451128,
+        "ev_recall_after": 0.9548872180451128,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.02533298627296076,
+        "best_rouge1_after": 0.02533298627296076
+      },
+      "temporal_reasoning": {
+        "n": 133,
+        "ctx_recall_before": 0.9323308270676691,
+        "ctx_recall_after": 0.9323308270676691,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.924812030075188,
+        "ev_recall_after": 0.924812030075188,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.049357806244367974,
+        "best_rouge1_after": 0.049357806244367974
+      }
+    }
+  },
+  "memoir_no_trace": {
+    "n": 500,
+    "ctx_recall_before": 0.852,
+    "ctx_recall_after": 0.852,
+    "delta_ctx_recall": 0.0,
+    "ev_recall_before": 0.962,
+    "ev_recall_after": 0.962,
+    "delta_ev_recall": 0.0,
+    "best_rouge1_before": 0.07479199532687861,
+    "best_rouge1_after": 0.07479199532687861,
+    "delta_rouge1": 0.0,
+    "f1": 0.0,
+    "by_ability": {
+      "information_extraction": {
+        "n": 156,
+        "ctx_recall_before": 0.9807692307692307,
+        "ctx_recall_after": 0.9807692307692307,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9615384615384616,
+        "ev_recall_after": 0.9615384615384616,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.139349737707681,
+        "best_rouge1_after": 0.139349737707681
+      },
+      "knowledge_update": {
+        "n": 78,
+        "ctx_recall_before": 0.8461538461538461,
+        "ctx_recall_after": 0.8461538461538461,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9871794871794872,
+        "ev_recall_after": 0.9871794871794872,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.06292316373778128,
+        "best_rouge1_after": 0.06292316373778128
+      },
+      "multi_session_reasoning": {
+        "n": 133,
+        "ctx_recall_before": 0.631578947368421,
+        "ctx_recall_after": 0.631578947368421,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9699248120300752,
+        "ev_recall_after": 0.9699248120300752,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.025648868768656224,
+        "best_rouge1_after": 0.025648868768656224
+      },
+      "temporal_reasoning": {
+        "n": 133,
+        "ctx_recall_before": 0.924812030075188,
+        "ctx_recall_after": 0.924812030075188,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9398496240601504,
+        "ev_recall_after": 0.9398496240601504,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.055173926791449994,
+        "best_rouge1_after": 0.055173926791449994
+      }
+    }
+  },
+  "oracle_trace": {
+    "n": 500,
+    "ctx_recall_before": 0.852,
+    "ctx_recall_after": 0.852,
+    "delta_ctx_recall": 0.0,
+    "ev_recall_before": 0.962,
+    "ev_recall_after": 0.962,
+    "delta_ev_recall": 0.0,
+    "best_rouge1_before": 0.07479199532687861,
+    "best_rouge1_after": 0.07542817422841133,
+    "delta_rouge1": 0.0006361789015327228,
+    "f1": 0.0,
+    "by_ability": {
+      "information_extraction": {
+        "n": 156,
+        "ctx_recall_before": 0.9807692307692307,
+        "ctx_recall_after": 0.9807692307692307,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9615384615384616,
+        "ev_recall_after": 0.9615384615384616,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.139349737707681,
+        "best_rouge1_after": 0.14143419171521193
+      },
+      "knowledge_update": {
+        "n": 78,
+        "ctx_recall_before": 0.8461538461538461,
+        "ctx_recall_after": 0.8589743589743589,
+        "delta_ctx_recall": 0.01282051282051282,
+        "ev_recall_before": 0.9871794871794872,
+        "ev_recall_after": 0.9871794871794872,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.06292316373778128,
+        "best_rouge1_after": 0.06320158988556833
+      },
+      "multi_session_reasoning": {
+        "n": 133,
+        "ctx_recall_before": 0.631578947368421,
+        "ctx_recall_after": 0.631578947368421,
+        "delta_ctx_recall": 0.0,
+        "ev_recall_before": 0.9699248120300752,
+        "ev_recall_after": 0.9699248120300752,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.025648868768656224,
+        "best_rouge1_after": 0.025648868768656224
+      },
+      "temporal_reasoning": {
+        "n": 133,
+        "ctx_recall_before": 0.924812030075188,
+        "ctx_recall_after": 0.9172932330827067,
+        "delta_ctx_recall": -0.007518796992481203,
+        "ev_recall_before": 0.9398496240601504,
+        "ev_recall_after": 0.9398496240601504,
+        "delta_ev_recall": 0.0,
+        "best_rouge1_before": 0.055173926791449994,
+        "best_rouge1_after": 0.0549573657844135
+      }
+    }
+  }
+}

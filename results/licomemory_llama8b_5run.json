@@ -1,0 +1,104 @@
+{
+  "protocol": "LiCoMemory public repo, llama3.1:8b via Ollama, LoCoMo group_1 (sample 0, 199 QAs), patched top_session_ids (their bug #1), MEMOIR fine-tuned encoder substitute for BGE-M3 (documented confound)",
+  "accuracy": {
+    "mean": 0.41075,
+    "std": 0.0170171482138851,
+    "n": 4
+  },
+  "rec5_session": {
+    "mean": 0.25888324873096447,
+    "std": 0.03821180978218686,
+    "n": 4
+  },
+  "rec15_session": {
+    "mean": 0.25888324873096447,
+    "std": 0.03821180978218686,
+    "n": 4
+  },
+  "t_r_mean_s": {
+    "mean": 16.041666666666668,
+    "std": 0.7107931714823393,
+    "n": 4
+  },
+  "k_r_mean_tokens": {
+    "mean": 1453.5628140703516,
+    "std": 34.25424915754499,
+    "n": 4
+  },
+  "k_r_note": "UNDERCOUNT: their repo logs Retrieval Tokens: 0 (bug #2)",
+  "per_run": [
+    {
+      "run": "llama8b_group1_run1",
+      "llm_correct": 83,
+      "llm_total": 199,
+      "llm_accuracy": 0.417,
+      "session_matching": 0.099,
+      "t_r_mean_s": 16.86868686868687,
+      "t_r_median_s": 16.0,
+      "n_timing_gaps": 198,
+      "k_r_mean_tokens": 1420.0603015075376,
+      "k_r_note": "UNDERCOUNT: repo logs Retrieval Tokens: 0 (their bug #2)",
+      "rec5_session": 0.27411167512690354,
+      "rec15_session": 0.27411167512690354,
+      "n_matched_questions": 197,
+      "complete": true
+    },
+    {
+      "run": "llama8b_group1_run2",
+      "llm_correct": 79,
+      "llm_total": 199,
+      "llm_accuracy": 0.397,
+      "session_matching": 0.078,
+      "t_r_mean_s": 16.393939393939394,
+      "t_r_median_s": 17.0,
+      "n_timing_gaps": 198,
+      "k_r_mean_tokens": 1497.8743718592964,
+      "k_r_note": "UNDERCOUNT: repo logs Retrieval Tokens: 0 (their bug #2)",
+      "rec5_session": 0.2182741116751269,
+      "rec15_session": 0.2182741116751269,
+      "n_matched_questions": 197,
+      "complete": true
+    },
+    {
+      "run": "llama8b_group1_run3",
+      "llm_correct": 86,
+      "llm_total": 199,
+      "llm_accuracy": 0.432,
+      "session_matching": 0.091,
+      "t_r_mean_s": 15.373737373737374,
+      "t_r_median_s": 16.0,
+      "n_timing_gaps": 198,
+      "k_r_mean_tokens": 1434.4522613065326,
+      "k_r_note": "UNDERCOUNT: repo logs Retrieval Tokens: 0 (their bug #2)",
+      "rec5_session": 0.30456852791878175,
+      "rec15_session": 0.30456852791878175,
+      "n_matched_questions": 197,
+      "complete": true
+    },
+    {
+      "run": "llama8b_group1_run4",
+      "llm_correct": 79,
+      "llm_total": 199,
+      "llm_accuracy": 0.397,
+      "session_matching": 0.107,
+      "t_r_mean_s": 15.530303030303031,
+      "t_r_median_s": 16.0,
+      "n_timing_gaps": 198,
+      "k_r_mean_tokens": 1461.8643216080402,
+      "k_r_note": "UNDERCOUNT: repo logs Retrieval Tokens: 0 (their bug #2)",
+      "rec5_session": 0.23857868020304568,
+      "rec15_session": 0.23857868020304568,
+      "n_matched_questions": 197,
+      "complete": true
+    },
+    {
+      "run": "llama8b_group1_run5",
+      "t_r_mean_s": 17.60335195530726,
+      "t_r_median_s": 17.0,
+      "n_timing_gaps": 179,
+      "k_r_mean_tokens": 1425.4222222222222,
+      "k_r_note": "UNDERCOUNT: repo logs Retrieval Tokens: 0 (their bug #2)",
+      "complete": false
+    }
+  ]
+}

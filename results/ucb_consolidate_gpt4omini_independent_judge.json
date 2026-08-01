@@ -1,0 +1,7 @@
+{
+  "n": 238,
+  "acc_self_judged": 0.3235294117647059,
+  "acc_independent_judge": 0.4369747899159664,
+  "flips_self_wrong_to_independent_correct": 34,
+  "flips_self_correct_to_independent_wrong": 7
+}

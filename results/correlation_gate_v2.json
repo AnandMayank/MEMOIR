@@ -1,0 +1,82 @@
+{
+  "mode": "gt_proxy",
+  "n_samples": 10,
+  "n_qa_total": 1986,
+  "k_retrieve": 5,
+  "pearson_r": 0.49019146427658805,
+  "mean_max_attribution": 0.057144358187132815,
+  "mean_context_recall": 0.6742195367573011,
+  "gate_passed": true,
+  "per_sample": [
+    {
+      "sample_id": "0",
+      "n_qa": 199,
+      "mean_max_attr": 0.0485901499269424,
+      "mean_ctx_recall": 0.6633165829145728,
+      "pearson_r": 0.5547889993128695
+    },
+    {
+      "sample_id": "1",
+      "n_qa": 105,
+      "mean_max_attr": 0.04988836521562087,
+      "mean_ctx_recall": 0.5523809523809524,
+      "pearson_r": 0.5489989029371036
+    },
+    {
+      "sample_id": "2",
+      "n_qa": 193,
+      "mean_max_attr": 0.06497166587325892,
+      "mean_ctx_recall": 0.772020725388601,
+      "pearson_r": 0.4553984522825729
+    },
+    {
+      "sample_id": "3",
+      "n_qa": 260,
+      "mean_max_attr": 0.05657200276986515,
+      "mean_ctx_recall": 0.6846153846153846,
+      "pearson_r": 0.4778425480019044
+    },
+    {
+      "sample_id": "4",
+      "n_qa": 242,
+      "mean_max_attr": 0.07342746534714598,
+      "mean_ctx_recall": 0.731404958677686,
+      "pearson_r": 0.4250899838830259
+    },
+    {
+      "sample_id": "5",
+      "n_qa": 158,
+      "mean_max_attr": 0.055581655978619554,
+      "mean_ctx_recall": 0.6962025316455697,
+      "pearson_r": 0.49498321135864065
+    },
+    {
+      "sample_id": "6",
+      "n_qa": 190,
+      "mean_max_attr": 0.05474406139037877,
+      "mean_ctx_recall": 0.6105263157894737,
+      "pearson_r": 0.5758534105682251
+    },
+    {
+      "sample_id": "7",
+      "n_qa": 239,
+      "mean_max_attr": 0.05072269324839058,
+      "mean_ctx_recall": 0.6736401673640168,
+      "pearson_r": 0.45130778092457996
+    },
+    {
+      "sample_id": "8",
+      "n_qa": 196,
+      "mean_max_attr": 0.05550168747806879,
+      "mean_ctx_recall": 0.6428571428571429,
+      "pearson_r": 0.552584921893284
+    },
+    {
+      "sample_id": "9",
+      "n_qa": 204,
+      "mean_max_attr": 0.05577916954887314,
+      "mean_ctx_recall": 0.6470588235294118,
+      "pearson_r": 0.4904894294945805
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memoir"
+version = "0.1.0-alpha"
+description = "MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "MEMOIR Authors" }
+]
+keywords = [
+    "agents", "memory", "retrieval", "llm", "long-horizon",
+    "consolidation", "credit-assignment"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "black>=23.0",
+    "ruff>=0.1",
+    "mypy>=1.0",
+]
+memoir = [
+    "sentence-transformers>=2.7",
+    "numpy>=1.26",
+    "rank-bm25>=0.1.3",
+    "rouge-score",
+    "transformers>=4.35",
+    "torch",
+]
+memoir-eval = [
+    "datasets>=2.0",
+    "nltk",
+    "bert-score",
+    "scikit-learn",
+    "anthropic>=0.30",
+    "tqdm",
+    "together>=2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+markers = [
+    "slow: tests that download or run a real language model",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
